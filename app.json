@@ -1,0 +1,49 @@
+{
+  "name": "തമ്പുരാട്ടി യൂസർബോട്",
+  "description": "Telegram UserBot to Play Audio in Telegram Voice Chats",
+  "repository": "https://github.com/myprojects514/tgvc-userbot",
+  "logo": "https://telegra.ph/file/c4849f1eecb06572dd425.jpg",
+  "keywords": [
+    "tgvc-userbot",
+    "telegram",
+    "userbot",
+    "voicechat",
+    "music",
+    "python",
+    "pyrogram",
+    "pytgcalls",
+    "tgcalls",
+    "voip",
+    "thamburattibot"
+  ],
+  "env": {
+    "API_ID": {
+            "value": "1701859",
+            "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
+            "required": true
+    },
+    "API_HASH": {
+            "value": "ebd582392a6d32290c7155925bee6d32",
+            "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
+            "required": true
+    },
+    "SESSION_NAME": {
+            "value": "BQAZ9-MAl3vVnExMRVbc3DMKWIRaOoyBqMnir2RFjFhb7CfolEgNjBJuD2nTdlU6ruKSHRQW7VQrXaoYuitlRiiDofWn34s2JRjGnoK7sI5_foa7P75z2FMRRy704e5bu2r5QoDOB0Kq8hIWitghbAy6yfxgwD9slrwaNJpG7nMcJoY5czVPmSpEerDoPanOSxVKUPPeKAoRp7mdkXa6_IDzCiB4V2DhHvdP7E_UhQwAZvmTgfQd3vwUHoiMfxdK9u4Us3Rk8gdcP6G7HC_OGwIbfwuP9QYPWsivT0LN0s3WPMnXfMigwhdPGTptgu_rNTxrrHOIh6tDYGd93QdWAXXAzjpL9wAAAAGj4L7xAA",
+            "description": "Session string, read the README to learn how to export it with Pyrogram",
+            "required": false
+    },
+    "PLUGIN": {
+            "description": "Voice Chat Smart Plugin to enable, must be one of: player/channel/recorder/radio",
+            "value": "player",
+            "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
