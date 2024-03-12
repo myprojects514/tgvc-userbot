@@ -13,7 +13,7 @@ RUN python -m pip install pytgcalls[pyrogram] TgCrypto ffmpeg-python psutil
 RUN wget -q https://github.com/callsmusic/tgvc-userbot/archive/dev.tar.gz && \
     tar xf dev.tar.gz && rm dev.tar.gz
 
-WORKDIR /tgvc-userbot-main
+WORKDIR /tgvc-userbot-dev
 CMD python3 main.py
 
 # docker build -t tgcalls .
