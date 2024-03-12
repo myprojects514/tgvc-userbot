@@ -4,7 +4,7 @@
 
 A Telegram UserBot to Play Audio in Voice Chats.
 
-[!(ഉണ്ടാക്കൂ)](https://heroku.com/deploy?template=https://github.com/sakhaavvaavaj93/thamburattiubot)
+[!(ഉണ്ടാക്കൂ)](https://heroku.com/deploy?template=https://github.com/myprojects514/tgvc-userbot)
 
 
 This is also the source code of the userbot which is being used for playing
